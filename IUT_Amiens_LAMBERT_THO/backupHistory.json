@@ -1,0 +1,29 @@
+{
+	"C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\Project\\IUT_Amiens_LAMBERT_THO.4DProject": [
+		{
+			"backupPath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\data[0001].4BK",
+			"structurePath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\Project\\IUT_Amiens_LAMBERT_THO.4DProject",
+			"dataPath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\Data\\data.4DD",
+			"logPath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\data[0000].4BL",
+			"startingDate": "2022-11-10T13:22:45.876Z",
+			"endingDate": "2022-11-10T13:22:45.876Z",
+			"scheduledDate": "2022-11-10T13:22:45.876Z",
+			"backupNumber": 1,
+			"duration": 24,
+			"attachments": [
+				{
+					"attachmentPath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\Data\\data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\Data\\data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\Users\\lambe\\OneDrive\\Bureau\\Cours\\LP\\BD\\Projet Perso\\IUT_Amiens_LAMBERT_THO\\Data\\data.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}

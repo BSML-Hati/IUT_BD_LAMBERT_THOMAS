@@ -1,0 +1,6 @@
+SAVE RECORD:C53([EVENEMENT:7])
+READ ONLY:C145([EVENEMENT:7])
+LOAD RECORD:C52([EVENEMENT:7])
+
+ui_loadEvenements
+ui_displayEvenements

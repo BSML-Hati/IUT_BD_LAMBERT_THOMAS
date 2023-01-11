@@ -1,0 +1,11 @@
+*** Full Backup
+Creating archive : C:\Users\lambe\OneDrive\Bureau\Cours\LP\BD\Projet Perso\IUT_Amiens_LAMBERT_THO\data[0001].4BK
+Creating log backup : C:\Users\lambe\OneDrive\Bureau\Cours\LP\BD\Projet Perso\IUT_Amiens_LAMBERT_THO\data[0000].4BL
+Attachment(s): 
+	C:\Users\lambe\OneDrive\Bureau\Cours\LP\BD\Projet Perso\IUT_Amiens_LAMBERT_THO\Data\data.4DSyncHeader [NOT FOUND]
+	C:\Users\lambe\OneDrive\Bureau\Cours\LP\BD\Projet Perso\IUT_Amiens_LAMBERT_THO\Data\data.4DSyncData [NOT FOUND]
+	C:\Users\lambe\OneDrive\Bureau\Cours\LP\BD\Projet Perso\IUT_Amiens_LAMBERT_THO\Data\data.4DIndx [OK]
+Scheduled 00/00/0 00:00
+Starting 10/11/2022 14:22
+Ending 10/11/2022 14:22
+

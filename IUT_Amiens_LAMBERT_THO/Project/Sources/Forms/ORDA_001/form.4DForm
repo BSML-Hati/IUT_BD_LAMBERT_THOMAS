@@ -1,0 +1,222 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 63,
+					"top": 36,
+					"width": 275,
+					"height": 512,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.utilisateurs",
+					"method": "ObjectMethods/List Box.4dm",
+					"currentItemSource": "Form:C1466.utilisateursSelection",
+					"columns": [
+						{
+							"header": {
+								"text": "Nom",
+								"name": "Entête1"
+							},
+							"name": "Colonne1",
+							"footer": {
+								"name": "Pied1"
+							},
+							"events": [
+								"onClick"
+							],
+							"dataSource": "This:C1470.NOM"
+						},
+						{
+							"header": {
+								"name": "Entête2",
+								"text": "Mail"
+							},
+							"name": "Colonne2",
+							"footer": {
+								"name": "Pied2"
+							},
+							"dataSource": "This:C1470.Email"
+						}
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "GENERATE",
+					"top": 251,
+					"left": 355,
+					"width": 327,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm"
+				},
+				"Form.utilisateursAffiche.NOM": {
+					"type": "input",
+					"left": 529,
+					"top": 102,
+					"width": 149,
+					"height": 16,
+					"dataSource": "Form:C1466.utilisateursAffiche.NOM"
+				},
+				"Form.utilisateursAffiche.Email": {
+					"type": "input",
+					"left": 529,
+					"top": 141,
+					"width": 150,
+					"height": 16,
+					"dataSource": "Form:C1466.utilisateursAffiche.Email"
+				},
+				"Texte": {
+					"type": "text",
+					"text": "",
+					"top": 163,
+					"left": 375,
+					"width": 81,
+					"height": 15
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "Nom:",
+					"top": 103,
+					"left": 385,
+					"width": 139,
+					"height": 15
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "Mail:",
+					"top": 141,
+					"left": 385,
+					"width": 112,
+					"height": 15
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "SAVE",
+					"top": 206,
+					"left": 523,
+					"width": 155,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton1.4dm"
+				},
+				"Bouton2": {
+					"type": "button",
+					"text": "New User",
+					"top": 561,
+					"left": 63,
+					"width": 275,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton2.4dm"
+				},
+				"Bouton3": {
+					"type": "button",
+					"text": "Delete",
+					"top": 206,
+					"left": 355,
+					"width": 148,
+					"height": 34,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton3.4dm"
+				},
+				"Bouton4": {
+					"type": "button",
+					"text": "Modifier",
+					"top": 302,
+					"left": 359,
+					"width": 320,
+					"height": 43,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton4.4dm"
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 364,
+					"top": 369,
+					"width": 304,
+					"height": 198,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"dataSource": "Form:C1466.utilisateurs",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Entête3"
+							},
+							"name": "This.Montant",
+							"footer": {
+								"name": "Pied3"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 69,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
